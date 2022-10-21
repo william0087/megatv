@@ -1,0 +1,202 @@
+/* -----------------------
+[Master Stylesheet]
+
+Template Name: MiGi TV
+
+[Table of Contents]
+    * Variables
+        + Fonts
+        + Colors
+        + Responsive
+    * Main Styles
+        + Preloader
+        + Bs-color-reset
+        + Reboot
+        + Shortcode
+        + Miscellaneous
+        + Internet-status
+        + Animation
+        + Register
+        + Header
+        + Sidenav
+        + Footer
+    * Element CSS
+        + Btn
+        + Badge
+        + Breadcrumb
+        + Accordion
+        + Alerts
+        + Divider
+        + Coming-soon
+        + Card
+        + Carousel
+        + Countdown
+        + Counterup
+        + Form
+        + Hero-block
+        + Image-gallery
+        + List-group
+        + Loader
+        + Modal
+        + Notification
+        + Pagination
+        + Partner
+        + Price-table
+        + Progress
+        + Rating
+        + Scrollspy
+        + Table
+        + Testimonial
+        + Timeline
+        + Toast
+    * Page CSS
+        + Blog
+        + Cart
+        + Language
+        + Product
+        + Service
+        + Team
+        + User-profile
+        + Demo
+    * RTL & Dark CSS
+        + RTL
+        + Dark
+
+# [font-family]
+"Poppins", sans-serif;
+----------------------- */
+
+/* :: Preloader */
+#preloader {
+  background-color: #f1f2fb;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: 9999999;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/* :: Bootstrap Color Reset */
+a,
+.btn-link,
+.link-primary {
+  color: #FF0000;
+}
+
+kbd {
+  background-color: #061238;
+}
+
+.form-control::-webkit-input-placeholder {
+  color: #8480ae;
+}
+
+caption,
+.blockquote-footer,
+.figure-caption,
+.form-control::-webkit-input-placeholder,
+.form-control::-moz-placeholder,
+.form-control::-ms-input-placeholder,
+.form-control:-ms-input-placeholder,
+.form-control::placeholder,
+.btn-link:disabled,
+.btn-link.disabled,
+.dropdown-item.disabled,
+.dropdown-item:disabled,
+.dropdown-header,
+.nav-link.disabled,
+.nav-tabs .nav-link.disabled,
+.form-text,
+.link-secondary,
+.btn-outline-secondary:disabled,
+.btn-outline-secondary.disabled {
+  color: #8480ae;
+}
+
+.table,
+.img-thumbnail {
+  border-color: #ebebeb;
+}
+
+.table-secondary,
+.table-primary,
+.table-success,
+.table-info,
+.table-warning,
+.table-danger,
+.table-light,
+.form-control-plaintext,
+.btn,
+.btn:hover,
+.dropdown-item,
+.dropdown-item-text,
+.list-group-item-action,
+.popover-body {
+  color: #1f0757;
+}
+
+.form-control,
+.form-select {
+  color: #1f0757;
+  border-color: #ebebeb;
+}
+
+.form-select:focus::-ms-value {
+  color: #1f0757;
+  background-color: #ffffff;
+}
+
+.form-select:disabled {
+  color: #8480ae;
+  background-color: #f1f2fb;
+}
+
+.form-check-input {
+  background-color: #ffffff;
+  border: 1px solid #ebebeb;
+}
+
+.form-check-input:checked,
+.form-check-input[type=checkbox]:indeterminate {
+  background-color: #FF0000;
+  border-color: #FF0000;
+}
+
+.form-file-text {
+  color: #1f0757;
+  background-color: #ffffff;
+}
+
+.form-file-button {
+  color: #1f0757;
+  background-color: #f1f2fb;
+}
+
+.form-range::-webkit-slider-thumb,
+.form-range::-moz-range-thumb,
+.form-range::-ms-thumb {
+  background-color: #FF0000;
+}
+
+.input-group-text {
+  color: #1f0757;
+  background-color: #cff2ff;
+  border-color: #cff2ff;
+}
+
+.valid-feedback {
+  color: #2ecc4a;
+}
+
+.valid-t
